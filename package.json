@@ -1,7 +1,7 @@
 {
-  "name": "fcc-template",
-  "version": "1.0.0",
-  "description": "Free Code Camp basejump template",
+  "name": "fcc-voting",
+  "version": "0.0.1",
+  "description": "Free Code Camp basejump voting",
   "main": "dist/bundle.js",
   "scripts": {
     "test": "gulp test",
@@ -9,6 +9,14 @@
   },
   "author": "Rich Churcher <rich.churcher@gmail.com>",
   "license": "MIT",
+  "keywords": ["fcc", "freecodecamp"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/richchurcher/fcc-voting.git"
+  },
+  "bugs": {
+    "url": "http://github.com/richchurcher/fcc-voting/issues"
+  },
   "devDependencies": {
     "babel": "^5.8.29",
     "bower": "^1.6.5",
