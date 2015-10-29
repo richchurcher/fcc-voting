@@ -46,6 +46,9 @@ gulp.task('front', ['lib'], function () {
     'src/**/*.js'
   ])
     .pipe(sourcemaps.init())
+      .pipe(eslint())
+      .pipe(eslint.format())
+      .pipe(babel())
       .pipe(concat('dist/bundle.js'))
       .pipe(ngAnnotate())
       .pipe(uglify())
